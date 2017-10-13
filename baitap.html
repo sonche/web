@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Hide show demo</title>
+ <style type="text/css">
+  table, tr, td {
+   padding: 15px;
+  }
+ </style>
+</head>
+<body>
+ <form>
+  <table>
+   <tr>
+    <td>Tên</td>
+    <td><input type="text" name="username"></td>
+   </tr>
+   <tr>
+    <td>Ngày sinh</td>
+    <td><input type="text" name="birthday"></td>
+   </tr>
+   <tr>
+    <td>Email</td>
+    <td><input type="text" name="email"></td>
+   </tr>
+   <tr>
+    <td>Giới tính</td>
+    <td>
+     <input type="radio" name="gender" id="gender-1"> Nam
+     <input type="radio" name="gender" id="gender-0"> Nữ
+    </td>
+   </tr>
+   <tr>
+    <td>Màu sắc yêu thích</td>
+    <td>
+     <span id="nam"><input type="checkbox" name="color" value="red" class="nam-s"> Đỏ
+     <input type="checkbox" name="color" value="blue" class="nam-s"> Xanh
+     <input type="checkbox" name="color" value="yello" class="nam-s"> Vàng</span>
+     <span id="nu"><input type="checkbox" name="color" value="pink" class="nu-s"> Hồng
+     <input type="checkbox" name="color" value="white" class="nu-s"> Trắng
+     <input type="checkbox" name="color" value="violet" class="nu-s"> Tím</span>
+    </td>
+   </tr>
+   <tr>
+    <td>Hoạt động yêu thích yêu thích</td>
+    <td>
+     <span id="nam-ok"><input type="checkbox" name="activity" value="red" class="nam-s"> Boxing
+     <input type="checkbox" name="activity" value="blue" class="nam-s"> Đá bóng
+     <input type="checkbox" name="activity" value="yello" class="nam-s"> Game</span>
+     <span id="nu-ok"><input type="checkbox" name="activity" value="pink" class="nu-s"> Đồ hàng
+     <input type="checkbox" name="activity" value="white" class="nu-s"> Cắm hoa
+     <input type="checkbox" name="activity" value="violet" class="nu-s"> Nội trợ</span>
+    </td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+     <input type="button" name="" value="Lưu">
+     <input type="reset" name="" value="Làm lại">
+    </td>
+   </tr>
+  </table>
+ </form>
+ <script type="text/javascript" src="baitap.js"></script>
+</body>
+</html>
